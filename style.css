@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('img/airplane.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* İçerik kutusu */
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px 5px 15px ; /* Üst, sağ, alt, sol sırasıyla */ /* Üst: 10px, sağ-sol: 15px, alt: 5px *//* Üst-alt: 10px, sağ-sol: 20px *//* Her taraftan 20px boşluk */
+  border-radius: 12px;
+  max-width: 850px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+.language-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.language-selector img {
+  width: 30px;
+  height: 20px;
+}
+
+.content {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 180px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.addresses {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.address {
+  text-align: center;
+  margin: 10px;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.nav-button {
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
