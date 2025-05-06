@@ -20,7 +20,7 @@ body {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px 1px 15px ; /* Üst, sağ, alt, sol sırasıyla */ /* Üst: 10px, sağ-sol: 15px, alt: 5px *//* Üst-alt: 10px, sağ-sol: 20px *//* Her taraftan 20px boşluk */
   border-radius: 12px;
-  max-width: 850px;
+  max-width: 800px;
   width: 100%;
   text-align: center;
   box-shadow: 0 0 12px rgba(0,0,0,0.2);
