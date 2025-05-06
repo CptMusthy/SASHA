@@ -32,11 +32,18 @@ body {
   margin-bottom: 5px;
 }
 
-.name {
+.name-label {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 5px; /* ADI ile SASHA arası boşluk */
 }
+
+.name-value {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0; /* Üstten boşluk istemiyorsan sıfırla */
+}
+
 
 .info-row {
   display: flex;
