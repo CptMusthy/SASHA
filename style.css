@@ -26,25 +26,6 @@ body {
   box-shadow: 0 0 12px rgba(0,0,0,0.2);
 }
 
-.language-selector {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.language-selector img {
-  width: 30px;
-  height: 20px;
-}
-
-.content {
-  text-align: center;
-  max-width: 600px;
-  width: 100%;
-}
-
 .name {
   font-size: 20px;
   font-weight: bold;
@@ -54,7 +35,7 @@ body {
 .profile-img {
   width: 180px;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .info-row {
@@ -74,7 +55,7 @@ body {
 
 .address {
   text-align: center;
-  margin: 10px;
+  margin: 5px;
 }
 
 .icon {
@@ -83,15 +64,4 @@ body {
   margin-top: 5px;
   cursor: pointer;
 }
-
-.nav-button {
-  background-color: #007BFF;
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
-  border-radius: 8px;
-  margin: 10px;
-  display: inline-block;
-}
-
 
